@@ -47,7 +47,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url("../Assets/bg-img.jpeg");
+  background: url("../../Assets/bg-img.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -58,6 +58,7 @@ nav {
   font-size: 3rem;
   text-transform: capitalize;
   line-height: 1.5;
+  max-width: 50%;
 }
 
 #button-box {
@@ -74,11 +75,34 @@ nav {
   padding: 12px 24px;
   font-size: 18px;
   font-weight: 600;
-
 }
 
+#button-box #white-btn {
+  background-color: white;
+  color: black;
+}
 
-#button-box #white-btn{
-    background-color: white;
-    color: black;
+/* ===== Mobile Responsive ===== */
+
+@media screen and (width <= 480px) {
+  .main-content h1 {
+    font-size: 2.1rem;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  #header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

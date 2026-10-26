@@ -1,0 +1,50 @@
+/* border: size style color; */
+
+/* border-top: size style color; */
+/* border-left: size style color; */
+/* border-right: size style color; */
+/* border-bottom: size style color; */
+
+/* border-radius: value; */
+/* border-radius: val1 val2 val3 val4; */
+
+/* border-top-left-radius: value; */
+/* border-top-right-radius: value; */
+/* border-bottom-right-radius: value; */
+/* border-bottom-left-radius: value; */
+
+h1 {
+  /* border-width: 8px;
+  border-style: groove;
+  border-color: darkorchid; */
+
+  /* border-top: 8px groove darkorchid;
+  border-left: 8px groove darkorchid;
+  border-right: 8px groove darkorchid;
+  border-bottom: 8px groove darkorchid; */
+
+  border: 2px solid orange;
+
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; */
+
+  border-radius: 10px;
+  /* border-radius: 5px 20px; */
+  /* border-radius: 5px 20px 5px 20px; */
+}
+
+input {
+  border: none;
+}
+
+/* Make circle using border-radius */
+
+#box {
+  width: 300px;
+  height: 300px;
+  background-color: purple;
+  margin-top: 40px;
+  border-radius: 100%;
+}
